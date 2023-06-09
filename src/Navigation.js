@@ -11,25 +11,25 @@ const Navigation = () => {
     <ScrollView horizontal contentContainerStyle={styles.container}>
       <TouchableOpacity
         style={[styles.buttonContainer]}
-        onPress={() => handleNavigation('My Certificates')}
+        onPress={() => handleNavigation()}
       >
         <Text style={styles.buttonText}>About</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={[styles.buttonContainer]}
-        onPress={() => handleNavigation('My Profile')}
+        onPress={() => handleNavigation()}
       >
         <Text style={styles.buttonText}>Experience</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={[styles.buttonContainer]}
-        onPress={() => handleNavigation('My Badges')}
+        onPress={() => handleNavigation()}
       >
         <Text style={styles.buttonText}>Education</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={[styles.buttonContainer]}
-        onPress={() => handleNavigation('My Schedule')}
+        onPress={() => handleNavigation()}
       >
         <Text style={styles.buttonText}>Hobbies</Text>
       </TouchableOpacity>
